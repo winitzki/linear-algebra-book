@@ -440,7 +440,7 @@ Hefferon (the latter is a free book).
 
 I started thinking about the approach to linear algebra based on exterior
 products while still a student. I am especially grateful to Sergei Arkhipov,
-Leonid Positsel’sky, and Arkady Vaintrob who have stimulated my interest
+Leonid Positselsky, and Arkady Vaintrob who have stimulated my interest
 at that time and taught me much of what I could not otherwise learn about
 algebra. Thanks are also due to Prof. Howard Haber (UCSC) for constructive
 feedback on an earlier version of this text.
