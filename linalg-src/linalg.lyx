@@ -170,6 +170,10 @@ ifwantphotoblurb
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset ERT
 status collapsed
 
@@ -180,6 +184,10 @@ status collapsed
 vspace{1in}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Newline newline
 \end_inset
 
 
@@ -225,6 +233,10 @@ milton theorem, properties of Pfaffians, the Jordan canonical form, as well
  hints are provided.
 \end_layout
 
+\end_inset
+
+
+\begin_inset Newline newline
 \end_inset
 
 
@@ -393,6 +405,10 @@ Winitzki
 authored a
 \end_layout
 
+\end_inset
+
+
+\begin_inset Newline newline
 \end_inset
 
 
