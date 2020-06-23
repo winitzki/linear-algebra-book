@@ -143,30 +143,20 @@ menubordercolor = 0 0.5 0}
 
 \begin_body
 
-\begin_layout Standard
-\align center
-
-\size large
-Linear Algebra via Exterior Products
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace{1in}
-\end_layout
-
+\begin_layout Extratitle
+\begin_inset space \hfill{}
 \end_inset
 
 
-\end_layout
+\size large
+Linear Algebra via Exterior Products
+\size default
 
-\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1in
+\end_inset
+
+
 \begin_inset ERT
 status collapsed
 
@@ -180,9 +170,19 @@ ifwantphotoblurb
 \end_inset
 
 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1in}
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -228,9 +228,6 @@ milton theorem, properties of Pfaffians, the Jordan canonical form, as well
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Note Note
 status collapsed
 
@@ -262,7 +259,7 @@ ate-free formalism and the exterior product, while somewhat
  The standard properties of determinants, the Pythagoras theorem for multidimens
 ional volumes, the formulas of Jacobi and Liouville, the Cayley-Hamilton
  theorem, properties of Pfaffians, the Jordan canonical form, as well as
- some generalizations of these results  are derived without cumbersome matrix
+ some generalizations of these results are derived without cumbersome matrix
  calculations.
  For the benefit of students, every result is logically motivated and discussed.
  Exercises with some hints are provided.
@@ -305,9 +302,6 @@ vspace{1mm}
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -402,9 +396,6 @@ authored a
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status collapsed
 
@@ -439,7 +430,7 @@ status collapsed
 \begin_layout Plain Layout
 
 \size small
- number of research articles and two books on his main professional interest,
+number of research articles and two books on his main professional interest,
  theoretical physics.
  He is presently employed as a senior academic fellow at the Ludwig-Maximilians-
 University, Munich (Germany).
@@ -448,9 +439,6 @@ University, Munich (Germany).
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status collapsed
 
@@ -464,11 +452,8 @@ fi
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -874,7 +859,7 @@ ional volumes, the formulas of Jacobi and Liouville, the Cayley-Hamilton
 
 \begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -890,6 +875,24 @@ pagenumbering{roman}
 
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\backslash
+pagenumbering{arabic}
+\end_layout
 
 \end_inset
 
@@ -2179,7 +2182,7 @@ Sample quiz problems
 \begin_layout Standard
 The following problems can be solved using techniques explained in this
  book.
- (These problems are of varying difficulty.) In these problems 
+ (These problems are of varying difficulty.) In these problems, 
 \begin_inset Formula $V$
 \end_inset
 
@@ -2966,7 +2969,8 @@ Volume in space:
 \end_layout
 
 \begin_layout Standard
-Consider the space of polynomials of degree at most 4 in the variable 
+Consider the (five-dimensional) space of polynomials of degree at most 4
+ in the variable 
 \begin_inset Formula $x$
 \end_inset
 

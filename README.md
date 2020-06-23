@@ -8,6 +8,8 @@ The PDF file also contains the source code inside it.
 The book is printed by lulu.com [http://www.lulu.com/content/paperback-book/linear-algebra-via-exterior-products/7467754](http://www.lulu.com/content/paperback-book/linear-algebra-via-exterior-products/7467754) and is published
 under the GNU Free Documentation License. The sub-directory `linalg-src` contains the full source code of the book, including LyX, LaTeX, and graphics files, as well as a Makefile with build scripts.
 
+To build all files, run `make clean all`.
+
 # Errata
 
 [Errata for version 1.2](ERRATA.md)

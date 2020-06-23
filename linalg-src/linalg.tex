@@ -1,7 +1,7 @@
 %% LyX 2.3.3 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
 \documentclass[10pt,oneside,twocolumn,english,american,pointlessnumbers,idxtotoc,cleardoubleempty]{scrbook}
-\usepackage{mathpazo}
+\usepackage{palatino}
 \usepackage[T1]{fontenc}
 \usepackage[latin9]{inputenc}
 \usepackage[a4paper]{geometry}
@@ -99,14 +99,7 @@ menubordercolor = 0 0.5 0}
 
 \usepackage{babel}
 \begin{document}
-\begin{center}
-{\large{}Linear Algebra via Exterior Products}{\large\par}
-\par\end{center}
-
-\vspace{1in}
-
-\ifwantphotoblurb
-
+\extratitle{\hfill{}{\large{}Linear Algebra via Exterior Products}\hspace{1in}\ifwantphotoblurb\vspace{1in}%
 \begin{minipage}[t]{7.6cm}%
 {\small{}This book is a pedagogical introduction to the coordinate-free
 approach in finite-dimen\-sion\-al linear algebra, at the undergraduate
@@ -117,10 +110,7 @@ the formulas of Jacobi and Liouville, the Cayley-Hamilton theorem,
 properties of Pfaffians, the Jordan canonical form, as well as some
 generalizations of these results. Every concept is logically motivated
 and discussed; exercises with some hints are provided.}%
-\end{minipage}
-
-\vspace{1mm}
-
+\end{minipage}\vspace{1mm}%
 \begin{minipage}[t]{3.3cm}%
 \vspace{-2mm}\includegraphics[width=3.2cm]{Sergei_Winitzki_blackboard_2008}%
 \end{minipage}~ ~%
@@ -129,18 +119,12 @@ and discussed; exercises with some hints are provided.}%
 Tufts University, USA (1997) and has been a researcher and part-time
 lecturer at universities in the USA, UK, and Germany. Dr.~Winitzki~
 has ~authored a}%
-\end{minipage}
-
-\vspace{1mm}%
+\end{minipage}\vspace{1mm}%
 \begin{minipage}[t]{7.5cm}%
-{\small{} number of research articles and two books on his main professional
+{\small{}number of research articles and two books on his main professional
 interest, theoretical physics. He is presently employed as a senior
 academic fellow at the Ludwig-Maximilians-University, Munich (Germany).}%
-\end{minipage}
-
-\fi
-
-\thispagestyle{empty}
+\end{minipage}\fi\thispagestyle{empty}}
 \title{Linear Algebra via Exterior Products}
 \author{Sergei Winitzki, Ph.D.}
 \date{\relax}
@@ -182,6 +166,8 @@ motivated and discussed. Exercises with some hints are provided.}}
 
 \maketitle
 \frontmatter\pagenumbering{roman}\tableofcontents{}
+
+\mainmatter\pagenumbering{arabic}
 
 \addchap{Preface}
 
