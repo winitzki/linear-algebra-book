@@ -1,6 +1,7 @@
 # linear-algebra-book
-The full source code and hyperlinked PDF of the book "Linear Algebra via Exterior Products" (2010)
+The full source code and hyperlinked PDF of the book "Linear Algebra via Exterior Products" (2010, 2020)
 
+The latest version of the book is 1.3 (updated June 2020).
 
 The PDF file also contains the source code inside it.
 
@@ -10,6 +11,8 @@ under the GNU Free Documentation License. The sub-directory `linalg-src` contain
 # Errata
 
 [Errata for version 1.2](ERRATA.md)
+
+These errata are already corrected in the current version 1.3.
 
 ## Description
 
@@ -445,6 +448,6 @@ at that time and taught me much of what I could not otherwise learn about
 algebra. Thanks are also due to Prof. Howard Haber (UCSC) for constructive
 feedback on an earlier version of this text.
 
-
+In the first 10 years since I made this book available for free, many readers sent me corrections to the text. For that, I thank Gabriel Aguirre, Pablo Dominguez, Joseph Ferrara, Andrew J. Ho, Yuxi Liu, Christophe Louargant, Jiri Matousek, Dmitri Pavlov, and Michele Zaffalon. Version 1.3 (prepared in June 2020) incorporates these corrections.
 
 
