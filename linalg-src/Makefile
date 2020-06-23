@@ -39,7 +39,7 @@ linalg.tar.gz: $(LYXSRC) $(TEXSRC) $(FIGSRC) $(FIGEPS) $(EXTRAFILES)
 linalg.tex: linalg.lyx
 	lyx --export latex linalg.lyx
 	mv linalg.tex 1linalg.tex
-	cat 1linalg.tex | sed -e 's,usepackage{mathpazo},usepackage{palatino},' > linalg.tex
+	cat 1linalg.tex | LC_ALL=C sed -e 's,usepackage{mathpazo},usepackage{palatino},' > linalg.tex
 	rm 1linalg.tex
 gfdl.tex: gfdl.lyx
 	lyx --export latex gfdl.lyx
@@ -51,11 +51,11 @@ linalg.pdf: linalg.dvi
 
 # replace paper sizes and document style options here
 linalg-book-print.tex: linalg.tex Makefile
-	sed -e 's|geometry{.*[bt]margin=.*,.*}|geometry{paperwidth=6.2in,paperheight=9.3in}|; s|documentclass\[[a-z0-9,]*\]{.*}|documentclass[10pt,twoside,english,american,pointlessnumbers,openright,idxtotoc,cleardoubleempty]{scrbook}|; s,wanthyperlinkstrue,wanthyperlinksfalse,;  s,wantphotoblurbtrue,wantphotoblurbfalse,; s,thisispdffiletrue,thisispdffilefalse,; s,thisisminitrue,thisisminifalse,; s|begin{document}|begin{document}\n \\special{papersize=6in,9in}\\typearea[13mm]{1}|' < linalg.tex > $@
+	LC_ALL=C sed -e 's|geometry{.*[bt]margin=.*,.*}|geometry{paperwidth=6.2in,paperheight=9.3in}|; s|documentclass\[[a-z0-9,]*\]{.*}|documentclass[10pt,twoside,english,american,pointlessnumbers,openright,idxtotoc,cleardoubleempty]{scrbook}|; s,wanthyperlinkstrue,wanthyperlinksfalse,;  s,wantphotoblurbtrue,wantphotoblurbfalse,; s,thisispdffiletrue,thisispdffilefalse,; s,thisisminitrue,thisisminifalse,; s|begin{document}|begin{document}\n \\special{papersize=6in,9in}\\typearea[13mm]{1}|' < linalg.tex > $@
 # note: paperwidth=6in,paperheight=8in in geometry but \\special{papersize=6in,9in}\\typearea[12mm]{20}| reproduces the same width but wrong height
 
 linalg-book.tex: linalg.tex Makefile
-	sed -e 's|geometry{.*[bt]margin=.*,.*}|geometry{paperwidth=6in,paperheight=9in,tmargin=15mm,bmargin=12mm,lmargin=20mm,rmargin=17mm}|; s|documentclass\[[a-z0-9,]*\]{.*}|documentclass[10pt,english,american,pointlessnumbers,openright,idxtotoc,cleardoubleempty]{scrbook}|; s,thisisminitrue,thisisminifalse,;s|begin{document}|begin{document}\n \\special{papersize=6in,9in}\\typearea[6mm]{1}|;' < linalg.tex > $@
+	LC_ALL=C sed -e 's|geometry{.*[bt]margin=.*,.*}|geometry{paperwidth=6in,paperheight=9in,tmargin=15mm,bmargin=12mm,lmargin=20mm,rmargin=17mm}|; s|documentclass\[[a-z0-9,]*\]{.*}|documentclass[10pt,english,american,pointlessnumbers,openright,idxtotoc,cleardoubleempty]{scrbook}|; s,thisisminitrue,thisisminifalse,;s|begin{document}|begin{document}\n \\special{papersize=6in,9in}\\typearea[6mm]{1}|;' < linalg.tex > $@
 
 # pdf file for online distribution: book formatting, hyperlinks, embedded source
 linalg-book.dvi: linalg-book.tex $(TEXSRC) $(FIGEPS) linalg.tar.gz
