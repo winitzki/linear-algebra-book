@@ -26466,11 +26466,11 @@ Since the spaces
 \end_inset
 
  are vector spaces, we may consider linear maps between them.
- 
-\end_layout
+ A simple example is a map 
+\begin_inset Formula $L_{\mathbf{a}}$
+\end_inset
 
-\begin_layout Standard
-A simplest example is a map
+ defined by
 \begin_inset Formula 
 \[
 L_{\mathbf{a}}:\omega\mapsto\mathbf{a}\wedge\omega,
@@ -26587,15 +26587,21 @@ It would be incorrect to define the map
 \end_inset
 
  because such a definition does not respect the antisymmetry of the wedge
- product and thus violates the linearity condition, 
+ product and thus violates the linearity condition.
+ We expect to have:
 \begin_inset Formula 
 \[
-\iota_{\mathbf{a}^{*}}\left(\mathbf{w}\wedge\mathbf{v}\right)\,\overset{!}{=}\,\iota_{\mathbf{a}^{*}}\left(\left(-1\right)\mathbf{v}\wedge\mathbf{w}\right)=-\iota_{\mathbf{a}^{*}}\left(\mathbf{v}\wedge\mathbf{w}\right)=-\mathbf{a}^{*}(\mathbf{v})\mathbf{w}\neq-\mathbf{a}^{*}(\mathbf{w})\mathbf{v}.
+\iota_{\mathbf{a}^{*}}\left(\mathbf{w}\wedge\mathbf{v}\right)\,\overset{!}{=}\,\iota_{\mathbf{a}^{*}}\left(\left(-1\right)\mathbf{v}\wedge\mathbf{w}\right)=-\iota_{\mathbf{a}^{*}}\left(\mathbf{v}\wedge\mathbf{w}\right)=-\mathbf{a}^{*}(\mathbf{v})\mathbf{w},
 \]
 
 \end_inset
 
-So we need to act with 
+but instead we get 
+\begin_inset Formula $\iota_{\mathbf{a}^{*}}\left(\mathbf{w}\wedge\mathbf{v}\right)=\mathbf{a}^{*}(\mathbf{w})\mathbf{v}\neq-\mathbf{a}^{*}(\mathbf{v})\mathbf{w}$
+\end_inset
+
+.
+ So we need to act with 
 \begin_inset Formula $\mathbf{a}^{*}$
 \end_inset
 
@@ -26606,7 +26612,7 @@ each
  of the vectors in a wedge product and make sure that the correct minus
  sign comes out.
  An acceptable formula for the map 
-\begin_inset Formula $\iota_{\mathbf{a}^{*}}:\wedge^{2}V\rightarrow V$
+\begin_inset Formula $\iota_{\mathbf{a}^{*}}$
 \end_inset
 
  is

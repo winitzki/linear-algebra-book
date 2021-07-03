@@ -5716,9 +5716,8 @@ i.e. $\omega$ can be represented as a single-term exterior product.\hfill{}$\bla
 \subsection{Linear maps between spaces $\wedge^{k}V$\label{subsec:Linear-maps-between-spaces}}
 
 Since the spaces $\wedge^{k}V$ are vector spaces, we may consider
-linear maps between them. 
-
-A simplest example is a map
+linear maps between them. A simple example is a map $L_{\mathbf{a}}$
+defined by
 \[
 L_{\mathbf{a}}:\omega\mapsto\mathbf{a}\wedge\omega,
 \]
@@ -5743,14 +5742,15 @@ by $\iota_{\mathbf{a}^{*}}$.
 It would be incorrect to define the map $\iota_{\mathbf{a}^{*}}$
 by the formula $\iota_{\mathbf{a}^{*}}(\mathbf{v}\wedge\mathbf{w})=\mathbf{a}^{*}\left(\mathbf{v}\right)\mathbf{w}$
 because such a definition does not respect the antisymmetry of the
-wedge product and thus violates the linearity condition, 
+wedge product and thus violates the linearity condition. We expect
+to have:
 \[
-\iota_{\mathbf{a}^{*}}\left(\mathbf{w}\wedge\mathbf{v}\right)\,\overset{!}{=}\,\iota_{\mathbf{a}^{*}}\left(\left(-1\right)\mathbf{v}\wedge\mathbf{w}\right)=-\iota_{\mathbf{a}^{*}}\left(\mathbf{v}\wedge\mathbf{w}\right)=-\mathbf{a}^{*}(\mathbf{v})\mathbf{w}\neq-\mathbf{a}^{*}(\mathbf{w})\mathbf{v}.
+\iota_{\mathbf{a}^{*}}\left(\mathbf{w}\wedge\mathbf{v}\right)\,\overset{!}{=}\,\iota_{\mathbf{a}^{*}}\left(\left(-1\right)\mathbf{v}\wedge\mathbf{w}\right)=-\iota_{\mathbf{a}^{*}}\left(\mathbf{v}\wedge\mathbf{w}\right)=-\mathbf{a}^{*}(\mathbf{v})\mathbf{w},
 \]
+but instead we get $\iota_{\mathbf{a}^{*}}\left(\mathbf{w}\wedge\mathbf{v}\right)=\mathbf{a}^{*}(\mathbf{w})\mathbf{v}\neq-\mathbf{a}^{*}(\mathbf{v})\mathbf{w}$.
 So we need to act with $\mathbf{a}^{*}$ on \emph{each} of the vectors
 in a wedge product and make sure that the correct minus sign comes
-out. An acceptable formula for the map $\iota_{\mathbf{a}^{*}}:\wedge^{2}V\rightarrow V$
-is
+out. An acceptable formula for the map $\iota_{\mathbf{a}^{*}}$ is
 \[
 \iota_{\mathbf{a}^{*}}\left(\mathbf{v}\wedge\mathbf{w}\right)\equiv\mathbf{a}^{*}\left(\mathbf{v}\right)\mathbf{w}-\mathbf{a}^{*}\left(\mathbf{w}\right)\mathbf{v}.
 \]
