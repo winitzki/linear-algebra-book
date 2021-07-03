@@ -26590,7 +26590,7 @@ It would be incorrect to define the map
  product and thus violates the linearity condition, 
 \begin_inset Formula 
 \[
-\iota_{\mathbf{a}^{*}}\left(\mathbf{w}\wedge\mathbf{v}\right)\,{\lyxbuildrel!\above=}\,\iota_{\mathbf{a}^{*}}\left(\left(-1\right)\mathbf{v}\wedge\mathbf{w}\right)=-\iota_{\mathbf{a}^{*}}\left(\mathbf{v}\wedge\mathbf{w}\right)\neq\mathbf{a}^{*}(\mathbf{v})\mathbf{w}.
+\iota_{\mathbf{a}^{*}}\left(\mathbf{w}\wedge\mathbf{v}\right)\,\overset{!}{=}\,\iota_{\mathbf{a}^{*}}\left(\left(-1\right)\mathbf{v}\wedge\mathbf{w}\right)=-\iota_{\mathbf{a}^{*}}\left(\mathbf{v}\wedge\mathbf{w}\right)=-\mathbf{a}^{*}(\mathbf{v})\mathbf{w}\neq-\mathbf{a}^{*}(\mathbf{w})\mathbf{v}.
 \]
 
 \end_inset
