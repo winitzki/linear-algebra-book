@@ -74486,13 +74486,13 @@ permutation!parity of
  For example, the permutation 
 \begin_inset Formula 
 \[
-\sigma:\left(1,2,3,4\right)\mapsto\left(1,4,3,2\right)
+\sigma:\left(1,2,3,4\right)\mapsto\left(1,4,2,3\right)
 \]
 
 \end_inset
 
- has four order violations, 
-\begin_inset Formula $\left|\sigma\right|=4$
+has two order violations, 
+\begin_inset Formula $\left|\sigma\right|=2$
 \end_inset
 
 , and is therefore an even permutation with parity 
