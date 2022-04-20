@@ -22998,7 +22998,7 @@ A(\mathbf{a},\mathbf{b}+\mathbf{c}) & =A(\mathbf{a},\mathbf{b})+A(\mathbf{a},\ma
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -23257,7 +23257,7 @@ ns of the vectors
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -23315,7 +23315,8 @@ mathbf{c}$}
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The area of the parallelogram spanned by 
+Illustration of the sum law  in a two-dimensional plane.
+ The area of the parallelogram spanned by 
 \begin_inset Formula $\mathbf{a}$
 \end_inset
 
