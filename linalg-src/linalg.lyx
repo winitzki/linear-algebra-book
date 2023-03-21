@@ -24352,11 +24352,7 @@ A tensor
 \begin_inset Formula $\mathbf{v}_{2}\otimes\mathbf{v}_{1}$
 \end_inset
 
- if 
-\begin_inset Formula $\mathbf{v}_{1}\neq\mathbf{v}_{2}$
-\end_inset
-
-.
+ in general.
  This is so because there is no identity among the axioms of the tensor
  product that would allow us to exchange the factors 
 \begin_inset Formula $\mathbf{v}_{1}$
@@ -24371,6 +24367,19 @@ A tensor
 \end_inset
 
 .
+ We will have 
+\begin_inset Formula $\mathbf{v}_{1}\otimes\mathbf{v}_{2}=\mathbf{v}_{2}\otimes\mathbf{v}_{1}$
+\end_inset
+
+ only if one of the vectors is proportional to another (
+\begin_inset Formula $\mathbf{v}_{1}=\lambda\mathbf{v}_{2}$
+\end_inset
+
+ or 
+\begin_inset Formula $\mathbf{v}_{2}=\lambda\mathbf{v}_{1}$
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Paragraph
