@@ -24353,6 +24353,19 @@ A tensor
 \end_inset
 
  in general.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+See also 
+\family typewriter
+https://math.stackexchange.com/questions/3883395/
+\family default
+ for a discussion.
+\end_layout
+
+\end_inset
+
  This is so because there is no identity among the axioms of the tensor
  product that would allow us to exchange the factors 
 \begin_inset Formula $\mathbf{v}_{1}$
