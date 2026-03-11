@@ -25850,7 +25850,7 @@ With
  & (\mathbf{p}^{*}\wedge\mathbf{q}^{*}\wedge\mathbf{r}^{*})(\mathbf{a}\wedge\mathbf{b}\wedge\mathbf{c})\\
  & =\mathbf{p}^{*}(\mathbf{a})\mathbf{q}^{*}(\mathbf{b})\mathbf{r}^{*}(\mathbf{c})-\mathbf{p}^{*}(\mathbf{b})\mathbf{q}^{*}(\mathbf{a})\mathbf{r}^{*}(\mathbf{c})\\
  & +\mathbf{p}^{*}(\mathbf{b})\mathbf{q}^{*}(\mathbf{c})\mathbf{r}^{*}(\mathbf{a})-\mathbf{p}^{*}(\mathbf{c})\mathbf{q}^{*}(\mathbf{b})\mathbf{r}^{*}(\mathbf{a})\\
- & +\mathbf{p}^{*}(\mathbf{c})\mathbf{q}^{*}(\mathbf{a})\mathbf{r}^{*}(\mathbf{b})-\mathbf{p}^{*}(\mathbf{c})\mathbf{q}^{*}(\mathbf{b})\mathbf{r}^{*}(\mathbf{a}).
+ & +\mathbf{p}^{*}(\mathbf{c})\mathbf{q}^{*}(\mathbf{a})\mathbf{r}^{*}(\mathbf{b})-\mathbf{p}^{*}(\mathbf{a})\mathbf{q}^{*}(\mathbf{c})\mathbf{r}^{*}(\mathbf{b}).
 \end{align*}
 
 \end_inset
