@@ -30300,7 +30300,11 @@ Another example: The 3-vector
 \begin_inset Formula $\mathbf{u}\wedge\mathbf{v}\wedge\mathbf{w}$
 \end_inset
 
- can be expanded in the basis as
+ can be expanded in the basis 
+\begin_inset Formula $\left\{ \mathbf{e}_{i}\wedge\mathbf{e}_{j}\wedge\mathbf{e}_{k}\right\} $
+\end_inset
+
+ as
 \begin_inset Formula 
 \[
 \mathbf{u}\wedge\mathbf{v}\wedge\mathbf{w}=\frac{1}{3!}\sum_{i,j,k=1}^{N}B^{ijk}\mathbf{e}_{i}\wedge\mathbf{e}_{j}\wedge\mathbf{e}_{k}.
