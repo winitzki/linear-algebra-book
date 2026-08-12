@@ -39678,7 +39678,7 @@ A straightforward generalization is to promote an operator
 \end_inset
 
 This is, of course, a linear map of 
-\begin_inset Formula $\wedge^{k}\hat{A}^{k}$
+\begin_inset Formula $\wedge^{k}V$
 \end_inset
 
  to itself (but not any more a mere multiplication by a scalar!).
