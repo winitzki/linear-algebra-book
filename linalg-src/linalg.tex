@@ -9591,7 +9591,7 @@ characteristic polynomials.
 \paragraph{Exercise 5:}
 
 Given an operator $\hat{A}$ of rank $r<N$, show that $\wedge^{N}\hat{A}^{k}=0$
-for $k\geq r+1$ but $\wedge^{N}\hat{A}^{r}\neq0$.
+for $k\geq r+1$ but $\wedge^{N}\hat{A}^{r}$ is not necessarily zero.
 
 \emph{Hint}: If $\hat{A}$ has rank $r<N$ then $\hat{A}\mathbf{v}_{1}\wedge...\wedge\hat{A}\mathbf{v}_{r+1}=0$
 for any set of vectors $\left\{ \mathbf{v}_{1},...,\mathbf{v}_{r+1}\right\} $. 
@@ -9631,9 +9631,9 @@ If $\hat{A}$ is a nilpotent operator then $\hat{Q}_{\hat{A}}\left(x\right)=\left
 
 \subparagraph{Proof:}
 
-First an example: suppose that $N=2$ and that $\hat{A}^{3}=0$. By
-Theorem~2, the coefficients of the characteristic polynomial of the
-operator $\hat{A}$ correspond to the operators $\wedge^{N}\hat{A}^{k}$.
+First an example: suppose that $N=2$ and that $\hat{A}^{3}=\hat{0}$.
+By Theorem~2, the coefficients of the characteristic polynomial of
+the operator $\hat{A}$ correspond to the operators $\wedge^{N}\hat{A}^{k}$.
 We need to show that all these operators are equal to zero.
 
 Consider, for instance, $\wedge^{2}\hat{A}^{2}=q_{2}\hat{1}_{\wedge^{2}V}$.
@@ -9642,7 +9642,7 @@ as
 \[
 {\big({\wedge^{2}\hat{A}^{2}}\big)}^{3}\mathbf{a}\wedge\mathbf{b}=\hat{A}^{3}\mathbf{a}\wedge\hat{A}^{3}\mathbf{b}=0
 \]
-since $\hat{A}^{3}=0$. On the other hand, 
+since $\hat{A}^{3}=\hat{0}$. On the other hand, 
 \[
 {\big({\wedge^{2}\hat{A}^{2}}\big)}^{3}\mathbf{a}\wedge\mathbf{b}=\left(q_{2}\right)^{3}\mathbf{a}\wedge\mathbf{b}.
 \]
@@ -9651,16 +9651,16 @@ power $3$,
 \[
 {\big({\wedge^{2}\hat{A}^{1}}\big)}^{3}\mathbf{a}\wedge\mathbf{b}=\hat{A}^{2}\mathbf{a}\wedge\hat{A}\mathbf{b}+\hat{A}\mathbf{a}\wedge\hat{A}^{2}\mathbf{b}
 \]
-(all other terms vanish because $\hat{A}^{3}=0$). It is clear that
-the operator $\wedge^{2}\hat{A}^{1}$ to the power $6$ vanishes because
-there will be at least a third power of $\hat{A}$ acting on each
-vector. Therefore $q_{1}=0$ as well.
+(all other terms vanish because $\hat{A}^{3}=\hat{0}$). It is clear
+that the operator $\wedge^{2}\hat{A}^{1}$ to the power $6$ vanishes
+because there will be at least a third power of $\hat{A}$ acting
+on each vector. Therefore $q_{1}=0$ as well.
 
-Now a general argument. Let $p$ be a positive integer such that $\hat{A}^{p}=0$,
+Now a general argument. Let $p$ be a positive integer such that $\hat{A}^{p}=\hat{0}$,
 and consider the $(pN)$-th power of the operator $\wedge^{N}\hat{A}^{k}$
 for some $k\geq1$. We will prove that $(\wedge^{N}\hat{A}^{k})^{pN}=\hat{0}$.
 Since $\wedge^{N}\hat{A}^{k}$ is a multiplication by a number, from
-$(\wedge^{N}\hat{A}^{k})^{pN}=0$ it will follow that $\wedge^{N}\hat{A}^{k}$
+$(\wedge^{N}\hat{A}^{k})^{pN}=\hat{0}$ it will follow that $\wedge^{N}\hat{A}^{k}$
 is a zero operator in $\wedge^{N}V$ for all $k\geq1$. If all the
 coefficients $q_{k}$ of the characteristic polynomial vanish, we
 will have $Q_{\hat{A}}\left(x\right)=\left(-x\right)^{N}$.
@@ -9685,8 +9685,8 @@ in Eq.~(\ref{eq:sum pN}) are less than $p$, because then we would
 have $\sum_{j=1}^{N}s_{j}<Np$, which would contradict the condition
 $\sum_{j=1}^{N}s_{j}=kpN$ (since $k\geq1$ by construction). So each
 term of the sum in Eq.~(\ref{eq:sum pN}) contains at least a $p$-th
-power of $\hat{A}$. Since $(\hat{A})^{p}=0$, each term in the sum
-in Eq.~(\ref{eq:sum pN}) vanishes. Hence $(\wedge^{N}\hat{A}^{k})^{pN}=0$
+power of $\hat{A}$. Since $(\hat{A})^{p}=\hat{0}$, each term in
+the sum in Eq.~(\ref{eq:sum pN}) vanishes. Hence $(\wedge^{N}\hat{A}^{k})^{pN}=\hat{0}$
 as required.\hfill{}$\blacksquare$
 
 \paragraph{Remark:}
@@ -9695,9 +9695,10 @@ The converse statement is also true: If the characteristic polynomial
 of an operator $\hat{A}$ is $Q_{\hat{A}}(x)=\left(-x\right)^{N}$
 then $\hat{A}$ is nilpotent. This follows easily from the Cayley-Hamilton
 theorem (see below), which states that $Q_{\hat{A}}(\hat{A})=0$,
-so we obtain immediately $(\hat{A})^{N}=0$, i.e.~the operator $\hat{A}$
-is nilpotent. We find that one cannot distinguish a nilpotent operator
-from the zero operator by looking only at the characteristic polynomial.
+so we obtain immediately $(\hat{A})^{N}=\hat{0}$, i.e.~the operator
+$\hat{A}$ is nilpotent. We find that one cannot distinguish a nilpotent
+operator from the zero operator by looking only at the characteristic
+polynomial.
 
 \chapter{Advanced applications}
 

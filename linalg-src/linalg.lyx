@@ -43113,10 +43113,10 @@ Given an operator
 \end_inset
 
  but 
-\begin_inset Formula $\wedge^{N}\hat{A}^{r}\neq0$
+\begin_inset Formula $\wedge^{N}\hat{A}^{r}$
 \end_inset
 
-.
+ is not necessarily zero.
 \end_layout
 
 \begin_layout Standard
@@ -43308,7 +43308,7 @@ First an example: suppose that
 \end_inset
 
  and that 
-\begin_inset Formula $\hat{A}^{3}=0$
+\begin_inset Formula $\hat{A}^{3}=\hat{0}$
 \end_inset
 
 .
@@ -43351,7 +43351,7 @@ Consider, for instance,
 \end_inset
 
 since 
-\begin_inset Formula $\hat{A}^{3}=0$
+\begin_inset Formula $\hat{A}^{3}=\hat{0}$
 \end_inset
 
 .
@@ -43385,7 +43385,7 @@ since
 \end_inset
 
 (all other terms vanish because 
-\begin_inset Formula $\hat{A}^{3}=0$
+\begin_inset Formula $\hat{A}^{3}=\hat{0}$
 \end_inset
 
 ).
@@ -43416,7 +43416,7 @@ Now a general argument.
 \end_inset
 
  be a positive integer such that 
-\begin_inset Formula $\hat{A}^{p}=0$
+\begin_inset Formula $\hat{A}^{p}=\hat{0}$
 \end_inset
 
 , and consider the 
@@ -43442,7 +43442,7 @@ Now a general argument.
 \end_inset
 
  is a multiplication by a number, from 
-\begin_inset Formula $(\wedge^{N}\hat{A}^{k})^{pN}=0$
+\begin_inset Formula $(\wedge^{N}\hat{A}^{k})^{pN}=\hat{0}$
 \end_inset
 
  it will follow that 
@@ -43586,7 +43586,7 @@ reference "eq:sum pN"
 
 .
  Since 
-\begin_inset Formula $(\hat{A})^{p}=0$
+\begin_inset Formula $(\hat{A})^{p}=\hat{0}$
 \end_inset
 
 , each term in the sum in Eq.
@@ -43602,7 +43602,7 @@ reference "eq:sum pN"
 
 ) vanishes.
  Hence 
-\begin_inset Formula $(\wedge^{N}\hat{A}^{k})^{pN}=0$
+\begin_inset Formula $(\wedge^{N}\hat{A}^{k})^{pN}=\hat{0}$
 \end_inset
 
  as required.
@@ -43641,7 +43641,7 @@ The converse statement is also true: If the characteristic polynomial of
 \end_inset
 
 , so we obtain immediately 
-\begin_inset Formula $(\hat{A})^{N}=0$
+\begin_inset Formula $(\hat{A})^{N}=\hat{0}$
 \end_inset
 
 , i.e.
